@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* max-width: 1200px; */
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    top: 50%;
+  }
+
+  .heading{
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumvioletred;
+    width: 50%;
+    margin: auto;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .btn1{
+    padding-top: 20px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  /* .btn1 input{
+    width: 100%;
+  } */
+
+  .btn2{
+    padding-top: 20px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .btn{
+    user-select: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color :mediumvioletred;
+    color: white;
+    padding: 10px;
+}
+  
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+} */
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+}
+input[type="text"] {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    /* border: none; */
+    /* border-color: grey; */
+    background-color: #e6dcdc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+input[type="text"]:focus {
+    outline: none;
+   border: none;
+    /* box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 6px rgba(0, 0, 0, 0.2); */
+}
+input[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+#short-link {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 767px) {
+    .wrapper {
+      padding: 20px;
+    }
+    
+    .heading {
+      font-size: 18px;
+      width: 80%;
+      padding: 5px;
+    }
+  
+    .btn1, .btn2 {
+      width: 100%;
+      align-items: center;
+    }
+  
+    input[type="text"] {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  }
+
+  
+  @media only screen and (max-width: 479px) {
+    .wrapper {
+      padding: 20px;
+    }
+  
+    .heading {
+      font-size: 18px;
+      width: 75%;
+      padding: 8px;
+    }
+  
+    .btn1,
+    .btn2 {
+      width: 100%;
+    }
+  
+    input[type="text"] {
+      font-size: 16px;
+      padding: 8px;
+    }
+  
+    input[type="submit"] {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
+
+/* #main{
+    width : 30%;
+    margin: auto;
+    background-color: mediumvioletred;
+    
+} */
+
+/* @media only screen and (max-width: 600px) and (min-width: 400px)  {
+
+    #main{
+    width : 90%;
+    margin: auto;
+    background-color: mediumvioletred;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+}
+
+.btn{
+    margin-top: 10px;
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color :mediumvioletred;
+    color: white;
+    padding: 10px;
+} */
